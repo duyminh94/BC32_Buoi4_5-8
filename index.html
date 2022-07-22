@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài Tập 5 - 8 Buổi 4 JS </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Bài 5 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tính ngày tháng năm
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Ngày</label>
+                            <input id="day" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <div class="form-group">
+                            <label>Tháng</label>
+                            <input id="month" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <div class="form-group">
+                            <label>Năm</label>
+                            <input id="year" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <!-- onlick tổng() trong button-->
+                        <div id="btntinhfast" class="btn btn-success" onclick="ngayhomqua()">Ngày Hôm Qua</div>
+                        <div id="btntinhfure" class="btn btn-success" onclick="ngayhomkia()">Ngày Mai</div>
+                        <div id="showIntoday" class="card-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Bài 6  -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tính ngày tháng năm
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Tháng</label>
+                            <input id="thang" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <div class="form-group">
+                            <label>Năm</label>
+                            <input id="year2" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <!-- onlick tổng() trong button-->
+                        <div id="btntinhyear" class="btn btn-success" onclick="tong()">Tính Ngày</div>
+
+                    </div>
+                    <div id="showInyear" class="card-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Bài 7 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Đọc Số
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Số</label>
+                            <input id="number" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <!-- onlick tổng() trong button-->
+                        <div id="btntinhread" class="btn btn-success" onclick="tong()">Đọc Số</div>
+
+                    </div>
+                    <div id="showInread" class="card-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Bài 8 -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Sinh Viên 1
+                    </div>
+                    <div class="card-body" style="display:flex;">
+                        <div class="form-group" style="margin: 6px;">
+                            <label>Tên</label>
+                            <input id="name1" type="text" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <div class="form-group" style="margin: 6px;">
+                            <label>Tọa Độ X</label>
+                            <input id="x1" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                        <div class="form-group" style="margin: 6px;">
+                            <label>Tọa Độ Y</label>
+                            <input id="y1" type="number" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Sinh Viên 2
+                        </div>
+                        <div class="card-body" style="display:flex;">
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tên</label>
+                                <input id="name2" type="text" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tọa Độ X</label>
+                                <input id="x2" type="number" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tọa Độ Y</label>
+                                <input id="y2" type="number" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Sinh Viên 3
+                        </div>
+                        <div class="card-body" style="display:flex;">
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tên</label>
+                                <input id="name3" type="text" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tọa Độ X</label>
+                                <input id="x3" type="number" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tọa Độ Y</label>
+                                <input id="y3" type="number" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Trường Học
+                        </div>
+                        <div class="card-body" style="display:flex;">
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tọa Độ X</label>
+                                <input id="x4" type="number" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                            <div class="form-group" style="margin: 6px;">
+                                <label>Tọa Độ Y</label>
+                                <input id="y4" type="number" name="" id="" class="form-control" placeholder=""
+                                    aria-describedby="helpId">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="btntinhlost" class="btn btn-success" onclick="tong()">Tìm</div>
+                </div>
+                <!-- onlick tổng() trong button-->
+                <div id="showInlost" class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
